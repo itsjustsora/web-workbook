@@ -1,18 +1,12 @@
 
 [
 +src/main/webapp/WEB-INF/calc/calcResult.jsp,3/d/3dfbf251a43e51b75ca8082d12981015da71dfb8
-]
--src/main/java/org/zerock/w1/HelloServlet.java,1/e/1e5630412eaa4ec538bbda6eb9c50ecd866c2f3e
 I
 src/main/webapp/index.jsp,8/e/8e6d3b70c9f5b02570779b0441540d45eceb0ded
 V
 &src/main/webapp/WEB-INF/calc/input.jsp,0/4/043276c66fdf302a22e30234afe344dc3ede3141
-e
-5src/main/java/org/zerock/w1/calc/InputController.java,a/a/aa2dcb74d63b154eafc037a668a37b721f49137a
 Z
 *src/main/java/org/zerock/w1/MyServlet.java,2/b/2b62b05305d0f575b0ef7b49aee9d25c9b2cfca9
-Y
-)src/main/webapp/WEB-INF/todo/register.jsp,0/e/0e7f9429eebabcb5592f64e82abb379324cdcb6e
 ^
 .src/main/java/org/zerock/w1/SampleServlet.java,f/6/f6619e92c35173f5e486456be11deac92fb04919
 H
@@ -27,15 +21,3 @@ a
 1src/main/java/org/zerock/w1/todo/dto/TodoDTO.java,a/a/aa1ed4f4dd5050239afdab04db115f7481a31ffa
 i
 9src/main/java/org/zerock/w1/todo/service/TodoService.java,b/b/bb39cd5e0e44ebaecc0d15523b3506207afb3ce2
-U
-%src/main/webapp/WEB-INF/todo/read.jsp,9/d/9d5fe96a280af5e84d944a07d98aafd2933f01d2
-h
-8src/main/java/org/zerock/w1/todo/TodoListController.java,e/6/e60fc37413185c4a1282f0da7963c21ec08b83e1
-W
-'src/main/webapp/WEB-INF/todo/modify.jsp,7/0/70d2faf9a49395089e644277838d244c510ca499
-U
-%src/main/webapp/WEB-INF/todo/list.jsp,e/a/ea326e176de711c5a1fba8b0c96faaaa57ede7ca
-d
-4src/main/java/org/zerock/w1/calc/CalcController.java,f/c/fcafed29ccdb2a38d329d930ca423cc4c8373f2a
-h
-8src/main/java/org/zerock/w1/todo/TodoReadController.java,8/5/857c52df9fc58ba72f9742bb142a0a41feaa0caa
