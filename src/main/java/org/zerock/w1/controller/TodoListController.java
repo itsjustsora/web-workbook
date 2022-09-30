@@ -4,6 +4,7 @@ import lombok.extern.log4j.Log4j2;
 import org.zerock.w1.dto.TodoDTO;
 import org.zerock.w1.service.TodoService;
 
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -19,6 +20,9 @@ public class TodoListController extends HttpServlet {
     private TodoService todoService = TodoService.INSTANCE;
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        ServletContext servletContext = req.getServletContext();
+
+        log.info("appName: {}", servletContext.getAttribute("appName"));
         try {
             List<TodoDTO> dtoList = todoService.listAll();
             req.setAttribute("dtoList", dtoList);

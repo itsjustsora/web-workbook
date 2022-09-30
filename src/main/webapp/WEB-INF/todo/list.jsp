@@ -13,6 +13,8 @@
 </head>
 <body>
 <h1>List Page</h1>
+
+<h1>${appName}</h1>
 <h2>${loginInfo}</h2>
 <h3>${loginInfo.mname}</h3>
 

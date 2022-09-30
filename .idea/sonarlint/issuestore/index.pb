@@ -14,10 +14,6 @@ H
 -src/main/java/org/zerock/w1/HelloServlet.java,1/e/1e5630412eaa4ec538bbda6eb9c50ecd866c2f3e
 <
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
-n
->src/main/java/org/zerock/w1/controller/TodoListController.java,7/7/7750d8cb61ba19a7d4c183d4e8863d4df92ec2ee
-n
->src/main/java/org/zerock/w1/controller/TodoReadController.java,e/8/e8a82721e4557e2c743f954ef4c003796041a35b
 c
 3src/main/java/org/zerock/w1/dao/ConnectionUtil.java,f/3/f3b69402332cf62c30559f0a5b58e0be2952334b
 \
@@ -40,8 +36,6 @@ p
 @src/main/java/org/zerock/w1/controller/TodoRemoveController.java,4/5/455236f820e1e986ef50e6daae67ebc979decacb
 r
 Bsrc/main/java/org/zerock/w1/controller/TodoRegisterController.java,7/0/70811cce70847abcf76681e9850b98fd132a5560
-h
-8src/main/java/org/zerock/w1/filter/LoginCheckFilter.java,1/7/172431006b64defc5b4c265997e820941f922c87
 b
 2src/main/java/org/zerock/w1/filter/UTF9Filter.java,f/f/ff8a1cb5a243786ef328846d63353ec14c7709b9
 p
