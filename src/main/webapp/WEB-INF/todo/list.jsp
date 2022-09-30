@@ -13,17 +13,23 @@
 </head>
 <body>
 <h1>List Page</h1>
+<h2>${loginInfo}</h2>
+<h3>${loginInfo.mname}</h3>
 
-<ul>
-    <c:forEach var="dto" items="${dtoList}">
-        <li>
-            <span><a href="/todo/read?tno=${dto.tno}">${dto.tno}</a></span>
-            <span>${dto.title}</span>
-            <span>${dto.dueDate}</span>
-            <span>${dto.finished? "DONE": "NOT YET"}</span>
-        </li>
-    </c:forEach>
-</ul>
+    <ul>
+        <c:forEach var="dto" items="${dtoList}">
+            <li>
+                <span><a href="/todo/read?tno=${dto.tno}">${dto.tno}</a></span>
+                <span>${dto.title}</span>
+                <span>${dto.dueDate}</span>
+                <span>${dto.finished? "DONE": "NOT YET"}</span>
+            </li>
+        </c:forEach>
+    </ul>
+
+<form action="/logout" method="post">
+    <button>LOGOUT</button>
+</form>
 
 </body>
 </html>
